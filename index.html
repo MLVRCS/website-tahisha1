@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #E6DCE7;
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #CCE4DA;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>Rabbit's</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.lovelybunnys.com/available-bunnies.html">Rabbit Rabbitary</a></li>
+      <li><a href="https://vcahospitals.com/know-your-pet/feeding-your-rabbit#:~:text=What%20do%20rabbits%20eat%3F,bulk%20of%20a%20rabbit's%20diet.">Rabbit Care</a></li>
+      <li><a href="https://www.thesprucepets.com/rabbit-breeds-1237186">Rabbit Breed's</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>My Pet's</h1>
+    <p>I have 4 pets, 3 rabbtis and 1 bird. My oldest rabbit is a 3 year old black/white netherland male.His sister is a two year old frosty blue-eyed hollandlop. There baby brother looks exactly like his older brother. He is a hollandlop black/ white baby with blue eyes. My bird is 2 years old, and very colorful!     </p>
+    
+    <p>....</p>
+  </article>
+</section>
+
+<footer>
+  <p>By: Tahisha Calva
+  <p>Email</p>  <p>tcalva@mlvrcs.org</p>
+</footer>
+
+</body>
+</html>
